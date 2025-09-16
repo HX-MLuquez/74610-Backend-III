@@ -72,7 +72,7 @@ if (NODE_ENV === "production") {
 }
 ```
 
-### 4. 🧠 Clusterizar la aplicación
+### 4. Clusterizar la aplicación
 
 - Usa `cluster` o PM2 para levantar múltiples instancias de la app.
 - Aprovecha mejor los múltiples núcleos de CPU.

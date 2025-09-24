@@ -1,0 +1,256 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 20,
+      "vusers.created": 20,
+      "http.requests": 24,
+      "http.codes.200": 4,
+      "http.responses": 4,
+      "http.downloaded_bytes": 356,
+      "plugins.metrics-by-endpoint./engineering/structural-analysis.codes.200": 4,
+      "plugins.metrics-by-endpoint./engineering/structural-analysis.errors.ETIMEDOUT": 20,
+      "errors.ETIMEDOUT": 20,
+      "vusers.failed": 20
+    },
+    "rates": {
+      "http.request_rate": 2
+    },
+    "firstCounterAt": 1758670205111,
+    "firstHistogramAt": 1758670207467,
+    "lastCounterAt": 1758670224322,
+    "lastHistogramAt": 1758670214310,
+    "firstMetricAt": 1758670205111,
+    "lastMetricAt": 1758670224322,
+    "period": 1758670220000,
+    "summaries": {
+      "http.response_time": {
+        "min": 2327,
+        "max": 9050,
+        "count": 4,
+        "mean": 5675.8,
+        "p50": 4492.8,
+        "median": 4492.8,
+        "p75": 6838,
+        "p90": 6838,
+        "p95": 6838,
+        "p99": 6838,
+        "p999": 6838
+      },
+      "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+        "min": 2327,
+        "max": 9050,
+        "count": 4,
+        "mean": 5675.8,
+        "p50": 4492.8,
+        "median": 4492.8,
+        "p75": 6838,
+        "p90": 6838,
+        "p95": 6838,
+        "p99": 6838,
+        "p999": 6838
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 2327,
+        "max": 9050,
+        "count": 4,
+        "mean": 5675.8,
+        "p50": 4492.8,
+        "median": 4492.8,
+        "p75": 6838,
+        "p90": 6838,
+        "p95": 6838,
+        "p99": 6838,
+        "p999": 6838
+      },
+      "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+        "min": 2327,
+        "max": 9050,
+        "count": 4,
+        "mean": 5675.8,
+        "p50": 4492.8,
+        "median": 4492.8,
+        "p75": 6838,
+        "p90": 6838,
+        "p95": 6838,
+        "p99": 6838,
+        "p999": 6838
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 20,
+        "vusers.created": 20,
+        "http.requests": 22,
+        "http.codes.200": 2,
+        "http.responses": 2,
+        "http.downloaded_bytes": 178,
+        "plugins.metrics-by-endpoint./engineering/structural-analysis.codes.200": 2
+      },
+      "rates": {
+        "http.request_rate": 5
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1758670205111,
+      "firstHistogramAt": 1758670207467,
+      "lastCounterAt": 1758670209690,
+      "lastHistogramAt": 1758670209689,
+      "firstMetricAt": 1758670205111,
+      "lastMetricAt": 1758670209690,
+      "period": "1758670200000",
+      "summaries": {
+        "http.response_time": {
+          "min": 2327,
+          "max": 4519,
+          "count": 2,
+          "mean": 3423,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 2322.1,
+          "p90": 2322.1,
+          "p95": 2322.1,
+          "p99": 2322.1,
+          "p999": 2322.1
+        },
+        "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+          "min": 2327,
+          "max": 4519,
+          "count": 2,
+          "mean": 3423,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 2322.1,
+          "p90": 2322.1,
+          "p95": 2322.1,
+          "p99": 2322.1,
+          "p999": 2322.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 2327,
+          "max": 4519,
+          "count": 2,
+          "mean": 3423,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 2322.1,
+          "p90": 2322.1,
+          "p95": 2322.1,
+          "p99": 2322.1,
+          "p999": 2322.1
+        },
+        "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+          "min": 2327,
+          "max": 4519,
+          "count": 2,
+          "mean": 3423,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 2322.1,
+          "p90": 2322.1,
+          "p95": 2322.1,
+          "p99": 2322.1,
+          "p999": 2322.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 2,
+        "http.responses": 2,
+        "http.downloaded_bytes": 178,
+        "plugins.metrics-by-endpoint./engineering/structural-analysis.codes.200": 2,
+        "http.requests": 2,
+        "plugins.metrics-by-endpoint./engineering/structural-analysis.errors.ETIMEDOUT": 18,
+        "errors.ETIMEDOUT": 18,
+        "vusers.failed": 18
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1758670212022,
+      "firstHistogramAt": 1758670212022,
+      "lastCounterAt": 1758670219708,
+      "lastHistogramAt": 1758670214310,
+      "firstMetricAt": 1758670212022,
+      "lastMetricAt": 1758670219708,
+      "period": "1758670210000",
+      "summaries": {
+        "http.response_time": {
+          "min": 6807,
+          "max": 9050,
+          "count": 2,
+          "mean": 7928.5,
+          "p50": 6838,
+          "median": 6838,
+          "p75": 6838,
+          "p90": 6838,
+          "p95": 6838,
+          "p99": 6838,
+          "p999": 6838
+        },
+        "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+          "min": 6807,
+          "max": 9050,
+          "count": 2,
+          "mean": 7928.5,
+          "p50": 6838,
+          "median": 6838,
+          "p75": 6838,
+          "p90": 6838,
+          "p95": 6838,
+          "p99": 6838,
+          "p999": 6838
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 6807,
+          "max": 9050,
+          "count": 2,
+          "mean": 7928.5,
+          "p50": 6838,
+          "median": 6838,
+          "p75": 6838,
+          "p90": 6838,
+          "p95": 6838,
+          "p99": 6838,
+          "p999": 6838
+        },
+        "plugins.metrics-by-endpoint.response_time./engineering/structural-analysis": {
+          "min": 6807,
+          "max": 9050,
+          "count": 2,
+          "mean": 7928.5,
+          "p50": 6838,
+          "median": 6838,
+          "p75": 6838,
+          "p90": 6838,
+          "p95": 6838,
+          "p99": 6838,
+          "p999": 6838
+        }
+      }
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint./engineering/structural-analysis.errors.ETIMEDOUT": 2,
+        "errors.ETIMEDOUT": 2,
+        "vusers.failed": 2
+      },
+      "rates": {},
+      "firstCounterAt": 1758670222029,
+      "lastCounterAt": 1758670224322,
+      "firstMetricAt": 1758670222029,
+      "lastMetricAt": 1758670224322,
+      "period": "1758670220000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 # 🌐 Guía para Configurar un Entorno Kubernetes con Minikube en Windows
 
+cd /mnt/c/Users/mauuu/OneDrive/Escritorio/CODERHOUSE/74610\ BACK-III\ MARTES\ 19-00/74610\ Back-III\ CLASE/CLASE-04
+
+
 ## 🧰 Herramientas Requeridas
 
 ### 1. Verificar `curl`
@@ -145,6 +148,14 @@ app-users-create-deployment-c64777c97-w4nvf       1/1     Running   1          4
 ```
 
 ---
+
+kubectl get svc
+
+
+kubectl describe svc aplication-users-service
+
+
+minikube service aplication-users-service
 
 ## 📝 Notas Finales
 

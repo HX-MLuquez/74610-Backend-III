@@ -22,6 +22,7 @@ docker logout
 ```bash
 docker build -t usuario/nombre-imagen .
 ```
+docker build -t mauricio776/app-hoy .
 
 3. Creamos el tag de la versión que vamos a subir:
 
@@ -34,12 +35,14 @@ Ejemplo con mi usuario:
 ```bash
 docker tag nombre-imagen mauricio776/nombre-imagen:1.0.0
 ```
+docker tag app-hoy mauricio776/app-hoy:1.0.0
 
 4. Subimos la imagen al Docker Hub:
 
 ```bash
 docker push mauricio776/nombre-imagen:1.0.0
 ```
+docker push mauricio776/app-hoy:1.0.0
 
 5. Verificamos que la imagen se haya subido correctamente:
 

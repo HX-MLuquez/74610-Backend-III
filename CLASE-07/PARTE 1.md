@@ -23,3 +23,7 @@ nest g resource modules/products
 - Hacer pequeño crud
 - integrar config (.env)
 - integrar mongo
+
+
+Instalar dependencias
+npm install mongoose @nestjs/mongoose @nestjs/config

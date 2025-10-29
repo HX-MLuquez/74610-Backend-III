@@ -3,15 +3,15 @@
 https://forms.gle/pvrBLDbyQQPKz5Lh9
 
 ## Repositorio de la clase
-https://github.com/HX-MLuquez/74610-Backend-III.git
 
+https://github.com/HX-MLuquez/74610-Backend-III.git
 
 **Carrera Intensiva - Comisión 74610**
 
-| Rol          | Nombre                 |
-| ------------ | ---------------------- |
-| Profesor     | Mauricio Gastón Lúquez |
-| TA           | Amadeo Isella          |
+| Rol      | Nombre                 |
+| -------- | ---------------------- |
+| Profesor | Mauricio Gastón Lúquez |
+| TA       | Amadeo Isella          |
 
 ---
 
@@ -43,22 +43,27 @@ https://github.com/HX-MLuquez/74610-Backend-III.git
 - **09/09/2025**  
   **Clase 0 -** Proceso principal del servidor + Global & Child Process
 
-
 - **16/09/2025**  
   **Clase 1 -** Testing Mocks
-
 
 ---
 
 ## Proyecto Final
 
-- **Pre-Entrega:** 
+- **Pre-Entrega:**
 
-- **Entrega Final:** 
+- **Entrega Final:**
+
+### Requisitos que se suman para el proyecto final:
+
+- Dockerización del proyecto final.
+  - Dockerfile
+  - Crear imagen
+  - Hacer push a Docker Hub
+- Test de integración con base de datos real.
+  - Supertest
+- Documentación con Swagger.
+
+- README completo con instrucciones de uso.
 
 - **Modalidad:** Proyecto
-
-
-
-
-
